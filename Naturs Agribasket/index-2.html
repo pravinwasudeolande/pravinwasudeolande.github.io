@@ -67,10 +67,10 @@
 	<div class="body-inner">
 
 <!-- Header start -->
-<header id="header" class="fixed-top header" role="banner">
-	<a class="navbar-brand navbar-bg" href="index.html"><img class="img-fluid float-right" src="images/logo.png" alt="logo"></a>
+<header id="header" class="fixed-top header2" role="banner">
 	<div class="container">
 		<nav class="navbar navbar-expand-lg navbar-dark">
+			<a class="navbar-brand" href="index.html"><img class="img-fluid" src="images/logo.png" alt="logo"></a>
 			<button class="navbar-toggler ml-auto border-0 rounded-0 text-white" type="button" data-toggle="collapse"
 				data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="fa fa-bars"></span>
@@ -160,145 +160,249 @@
 
 <!-- Slider start -->
 <section id="home" class="p-0">
-	<div id="main-slide" class="cd-hero">
-		<ul class="cd-hero-slider">
-			<li class="selected">
-				<div class="overlay2">
-					<img class="" src="images/slider/bg1.jpg" alt="slider">
-				</div>
-				<div class="cd-full-width">
-					<h2>Need To Invent The Future!</h2>
-					<h3>We Making Difference To Great Things Possible</h3>
-					<a href="#0" class="btn btn-primary white cd-btn">Start Now</a>
-					<a href="#0" class="btn btn-primary solid cd-btn">Learn More</a>
-				</div> <!-- .cd-full-width -->
-			</li>
-			<li>
-				<div class="overlay2">
-					<img class="" src="images/slider/bg2.jpg" alt="slider">
-				</div>
-				<div class="cd-half-width">
-					<h2>How Big Can You Dream?</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequatur cumque natus!</p>
-					<a href="#0" class="cd-btn btn btn-primary solid">Take a Tour</a>
-				</div> <!-- .cd-half-width -->
-
-				<div class="cd-half-width cd-img-container">
-					<img src="images/slider/bg-thumb1.png" alt="">
-				</div> <!-- .cd-half-width.cd-img-container -->
-			</li>
-			<li>
-				<div class="overlay2">
-					<img class="" src="images/slider/bg3.jpg" alt="slider">
-				</div>
-				<div class="cd-half-width cd-img-container img-right">
-					<img src="images/slider/bg-thumb2.png" alt="">
-				</div> <!-- .cd-half-width.cd-img-container -->
-				<div class="cd-half-width">
-					<h2>Your Challenge is Our Progress</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequatur cumque natus!</p>
-					<a href="#0" class="cd-btn btn btn-primary white">Start</a>
-					<a href="#0" class="cd-btn btn secondary btn-primary solid">Learn More</a>
-				</div> <!-- .cd-half-width -->
-			</li>
-			<li class="cd-bg-video">
-				<div class="cd-full-width">
-					<h2>WE ARE HERE TO MAKE IT HAPPEN</h2>
-					<h3>We Making Difference To Great Things Possible</h3>
-
-					<a href="#0" class="cd-btn btn btn-primary solid">Learn more</a>
-				</div> <!-- .cd-full-width -->
-
-				<div class="cd-bg-video-wrapper" data-video="videos/video">
-					<!-- video element will be loaded using jQuery -->
-				</div> <!-- .cd-bg-video-wrapper -->
-			</li>
-		</ul>
-		<!--/ cd-hero-slider -->
-
-		<div class="cd-slider-nav">
-			<nav>
-				<span class="cd-marker item-1"></span>
-				<ul>
-					<li class="selected"><a href="#0"><i class="fa fa-bicycle"></i> Invent</a></li>
-					<li><a href="#0"><i class="fa fa-hotel"></i> Dream</a></li>
-					<li><a href="#0"><i class="fa fa-android"></i> Tech</a></li>
-					<li class="video"><a href="#0"><i class="fa fa-video-camera"></i> Video</a></li>
-				</ul>
-			</nav>
-		</div> <!-- .cd-slider-nav -->
-
+	<div id="main-slide" class="ts-flex-slider">
+		<div class="flexSlideshow flexslider">
+			<ul class="slides">
+				<li>
+					<div class="overlay2">
+						<img class="" src="images/slider/bg1.jpg" alt="slider">
+					</div>
+					<div class="flex-caption slider-content">
+						<div class="col-md-12 text-center">
+							<h2 class="animated2">
+								Need To Invent The Future!
+							</h2>
+							<h3 class="animated3">
+								We Making Difference To Great Things Possible
+							</h3>
+							<p class="animated4"><a href="#" class="slider btn btn-primary white">Check Now</a></p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="overlay2">
+						<img class="" src="images/slider/bg2.jpg" alt="slider">
+					</div>
+					<div class="flex-caption slider-content">
+						<div class="col-md-12 text-center">
+							<h2 class="animated4">
+								How Big Can You Dream?
+							</h2>
+							<h3 class="animated5">
+								We are here to make it happen
+							</h3>
+							<p class="animated6"><a href="#" class="slider btn btn-primary white">Buy Now</a></p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="overlay2">
+						<img class="" src="images/slider/bg3.jpg" alt="slider">
+					</div>
+					<div class="flex-caption slider-content">
+						<div class="col-md-12 text-center">
+							<h2 class="animated7">
+								Your Challenge is Our Progress
+							</h2>
+							<h3 class="animated8">
+								So, You Don't Need to Go Anywhere Today
+							</h3>
+							<div class="">
+								<a class="animated4 slider btn btn-primary btn-min-block white" href="#">Get Now</a><a
+									class="animated4 slider btn btn-primary btn-min-block solid" href="#">Live Demo</a>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
 	</div>
 	<!--/ Main slider end -->
 </section>
 <!--/ Slider end -->
 
-
-<!-- Service box start -->
-<section id="service" class="service angle">
+<!-- About tab start -->
+<section id="about" class="about angle">
 	<div class="container">
+		<div class="row landing-tab">
+			<div class="col-md-3 col-sm-5">
+				<div class="nav flex-column nav-pills border-right" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+					<a class="animated fadeIn nav-link py-4 active d-flex align-items-center" data-toggle="pill" href="#tab_1" role="tab"
+						aria-selected="true">
+						<i class="fa fa-info-circle mr-4"></i>
+						<span class="h4 mb-0 font-weight-bold">Who Are We</span>
+					</a>
+					<a class="animated fadeIn nav-link py-4 d-flex align-items-center" data-toggle="pill" href="#tab_2" role="tab"
+						aria-selected="true">
+						<i class="fa fa-briefcase mr-4"></i>
+						<span class="h4 mb-0 font-weight-bold">OUR COMPANY</span>
+					</a>
+					<a class="animated fadeIn nav-link py-4 d-flex align-items-center" data-toggle="pill" href="#tab_3" role="tab"
+						aria-selected="true">
+						<i class="fa fa-android mr-4"></i>
+						<span class="h4 mb-0 font-weight-bold">What We Do</span>
+					</a>
+					<a class="animated fadeIn nav-link py-4 d-flex align-items-center" data-toggle="pill" href="#tab_4" role="tab"
+						aria-selected="true">
+						<i class="fa fa-pagelines mr-4"></i>
+						<span class="h4 mb-0 font-weight-bold">Modern Design</span>
+					</a>
+					<a class="animated fadeIn nav-link py-4 d-flex align-items-center" data-toggle="pill" href="#tab_5" role="tab"
+						aria-selected="true">
+						<i class="fa fa-support mr-4"></i>
+						<span class="h4 mb-0 font-weight-bold">Dedicated Support</span>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-9 col-sm-7">
+				<div class="tab-content" id="v-pills-tabContent">
+					<div class="tab-pane pl-sm-5 fade show active animated fadeInLeft" id="tab_1" role="tabpanel">
+						<i class="fa fa-trophy icon-xl text-primary mb-4"></i>
+						<h3>We Are Awwared Winning Company</h3>
+						<p>Over the year we have lots of experience in our field. In sit amet massa sapien. Vestibulum diam turpis,
+							gravida in lobortis id, ornare a eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+							sagittis nulla non elit dignissim suscipit. Duis lorem nulla, eleifend.</p>
+					</div>
+					<div class="tab-pane pl-sm-5 fade animated fadeInLeft" id="tab_2" role="tabpanel">
+						<i class="fa fa-briefcase icon-xl text-primary mb-4"></i>
+						<h3>We Have Worldwide Business</h3>
+						<p>Helvetica cold-pressed lomo messenger bag ugh. Vinyl jean shorts Austin pork belly PBR retro, Etsy VHS
+							kitsch actually messenger bag pug. Pbrb semiotics try-hard, Schlitz occupy dreamcatcher master cleanse
+							Marfa Vice tofu. </p>
+					</div>
+					<div class="tab-pane pl-sm-5 fade animated fadeInLeft" id="tab_3" role="tabpanel">
+						<i class="fa fa-android icon-xl text-primary mb-4"></i>
+						<h3>We Build Readymade Applications</h3>
+						<p>Over the year we have lots of experience in our field. In sit amet massa sapien. Vestibulum diam turpis,
+							gravida in lobortis id, ornare a eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+							sagittis nulla non elit dignissim suscipit. Duis lorem nulla, eleifend.</p>
+					</div>
+					<div class="tab-pane pl-sm-5 fade animated fadeInLeft" id="tab_4" role="tabpanel">
+						<i class="fa fa-pagelines icon-xl text-primary mb-4"></i>
+						<h3>Clean and Modern Design</h3>
+						<p>Over the year we have lots of experience in our field. In sit amet massa sapien. Vestibulum diam turpis,
+							gravida in lobortis id, ornare a eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+							sagittis nulla non elit dignissim suscipit. Duis lorem nulla, eleifend.</p>
+					</div>
+					<div class="tab-pane pl-sm-5 fade animated fadeInLeft" id="tab_5" role="tabpanel">
+						<i class="fa fa-support icon-xl text-primary mb-4"></i>
+						<h3>24/7 Dedicated Support</h3>
+						<p>Occupy selfies Tonx, +1 Truffaut beard organic normcore tilde flannel artisan squid cray single-origin
+							coffee. Master cleanse vinyl Austin kogi, semiotics skateboard fap wayfarers health goth. Helvetica cray
+							church-key hashtag Carles. Four dollar toast meggings seitan, Tonx pork belly VHS Bushwick. Chambray banh
+							mi cornhole. Locavore messenger bag seitan.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><!-- Container end -->
+</section><!-- About end -->
+
+<section id="image-block" class="image-block p-0">
+	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-12 heading">
-				<span class="title-icon float-left"><i class="fa fa-cogs"></i></span>
-				<h2 class="title">Service We Provide <span class="title-desc">A Quality Experience Team with 4 years
-						experience</span></h2>
+			<div class="col-md-6 ts-padding"
+				style="height:650px;background:url(images/image-block-bg.jpg) 50% 50% / cover no-repeat;">
 			</div>
-		</div><!-- Title row end -->
-
-		<div class="row">
-			<div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay=".5s">
-				<div class="service-content text-center">
-					<span class="service-icon icon-pentagon"><i class="fa fa-tachometer"></i></span>
-					<h3>Web Design</h3>
-					<p>High Life narwhal, banh mi PBR single-origin coffee Odd Future actually aliqua polaroid befor</p>
+			<div class="col-md-6 ts-padding img-block-right">
+				<div class="img-block-head text-center">
+					<h2>Know More About Our Company</h2>
+					<h3>Why Choose Us</h3>
+					<p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+						Proin gravida nibh vel velit auctor Aenean sollicitudin, adipisicing elit sed lorem quis bibendum auctor.
+					</p>
 				</div>
-			</div>
-			<!--/ End first service -->
 
-			<div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay=".8s">
-				<div class="service-content text-center">
-					<span class="service-icon icon-pentagon"><i class="fa fa-android"></i></span>
-					<h3>Apps Development</h3>
-					<p>Food truck master cleanse mixtape minim Portland, cardigan stumptown chambray swag</p>
-				</div>
-			</div>
-			<!--/ End Second service -->
+				<div class="gap-30"></div>
 
-			<div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="1.1s">
-				<div class="service-content text-center">
-					<span class="service-icon icon-pentagon"><i class="fa fa-shopping-cart"></i></span>
-					<h3>eCommerce Websites</h3>
-					<p>Neutra Thundercats craft beer, listicle meggings bicycle rights 90's XOXO beard cardiga</p>
+				<div class="image-block-content">
+					<span class="feature-icon float-left"><i class="fa fa-bicycle"></i></span>
+					<div class="feature-content">
+						<h3>Tons of Features</h3>
+						<p>Consectetur adipisicing elit sed do eiusmod tempor incididunt ut</p>
+					</div>
 				</div>
-			</div>
-			<!--/ End Third service -->
+				<!--/ End 1st block -->
 
-			<div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay="1.4s">
-				<div class="service-content text-center">
-					<span class="service-icon icon-pentagon"><i class="fa fa-lightbulb-o"></i></span>
-					<h3>Design for Startups</h3>
-					<p>We design beautiful modern engaging websites that always latest responsive technologies.</p>
+				<div class="image-block-content">
+					<span class="feature-icon float-left"><i class="fa fa-diamond"></i></span>
+					<div class="feature-content">
+						<h3>PowerPack Theme</h3>
+						<p>Proin gravida nibh vel velit auctor Aenean sollicitudin adipisicing</p>
+					</div>
 				</div>
+				<!--/ End 1st block -->
+
+				<div class="image-block-content">
+					<span class="feature-icon float-left"><i class="fa fa-street-view"></i></span>
+					<div class="feature-content">
+						<h3>Day Night Support</h3>
+						<p>Simply dummy text and typesettings industry has been the industry</p>
+					</div>
+				</div>
+				<!--/ End 1st block -->
 			</div>
-			<!--/ End 4th service -->
-		</div><!-- Content row end -->
+		</div>
+	</div>
+</section>
+
+<!-- Counter Strat -->
+<section class="ts_counter p-0">
+	<div class="container-fluid">
+		<div class="row facts-wrapper wow fadeInLeft text-center">
+			<div class="facts one col-md-3 col-sm-6">
+				<span class="facts-icon"><i class="fa fa-user"></i></span>
+				<div class="facts-num">
+					<span class="counter">1200</span>
+				</div>
+				<h3>Clients</h3>
+			</div>
+
+			<div class="facts two col-md-3 col-sm-6">
+				<span class="facts-icon"><i class="fa fa-institution"></i></span>
+				<div class="facts-num">
+					<span class="counter">1277</span>
+				</div>
+				<h3>Item Sold</h3>
+			</div>
+
+			<div class="facts three col-md-3 col-sm-6">
+				<span class="facts-icon"><i class="fa fa-suitcase"></i></span>
+				<div class="facts-num">
+					<span class="counter">869</span>
+				</div>
+				<h3>Projects</h3>
+			</div>
+
+			<div class="facts four col-md-3 col-sm-6">
+				<span class="facts-icon"><i class="fa fa-trophy"></i></span>
+				<div class="facts-num">
+					<span class="counter">76</span>
+				</div>
+				<h3>Awwards</h3>
+			</div>
+
+		</div>
 	</div>
 	<!--/ Container end -->
 </section>
-<!--/ Service box end -->
+<!--/ Counter end -->
+
 
 <!-- Portfolio start -->
-<section id="portfolio" class="portfolio">
+<section id="portfolio" class="portfolio portfolio-box">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12 heading">
-				<span class="title-icon classic float-left"><i class="fa fa-suitcase"></i></span>
-				<h2 class="title classic">Our Awesome Work</h2>
+			<div class="col-md-12 heading text-center">
+				<span class="icon-pentagon wow bounceIn"><i class="fa fa-suitcase"></i></span>
+				<h2 class="title2">Project Completed
+					<span class="title-desc">A Quality Experience Team with 4 years experience</span>
+				</h2>
 			</div>
 		</div> <!-- Title row end -->
 
 		<!--Isotope filter start -->
-		<div class="row text-right">
+		<div class="row text-center">
 			<div class="col-12">
 				<div class="isotope-nav" data-isotope-nav="isotope">
 					<ul>
@@ -311,10 +415,8 @@
 				</div>
 			</div>
 		</div><!-- Isotope filter end -->
-	</div>
 
-	<div class="container-fluid">
-		<div class="row isotope" id="isotope">
+		<div id="isotope" class="row isotope">
 			<div class="col-sm-3 web-design isotope-item">
 				<div class="grid">
 					<figure class="m-0 effect-oscar">
@@ -426,55 +528,18 @@
 					</figure>
 				</div>
 			</div><!-- Isotope item end -->
-		</div><!-- Content row end -->
+		</div><!-- Isotope content end -->
 	</div><!-- Container end -->
 </section><!-- Portfolio end -->
 
-<!-- Counter Strat -->
-<section class="ts_counter p-0">
-	<div class="container-fluid">
-		<div class="row facts-wrapper wow fadeInLeft text-center">
-			<div class="facts one col-md-3 col-sm-6">
-				<span class="facts-icon"><i class="fa fa-user"></i></span>
-				<div class="facts-num">
-					<span class="counter">1200</span>
-				</div>
-				<h3>Clients</h3>
-			</div>
 
-			<div class="facts two col-md-3 col-sm-6">
-				<span class="facts-icon"><i class="fa fa-institution"></i></span>
-				<div class="facts-num">
-					<span class="counter">1277</span>
-				</div>
-				<h3>Item Sold</h3>
-			</div>
 
-			<div class="facts three col-md-3 col-sm-6">
-				<span class="facts-icon"><i class="fa fa-suitcase"></i></span>
-				<div class="facts-num">
-					<span class="counter">869</span>
-				</div>
-				<h3>Projects</h3>
-			</div>
 
-			<div class="facts four col-md-3 col-sm-6">
-				<span class="facts-icon"><i class="fa fa-trophy"></i></span>
-				<div class="facts-num">
-					<span class="counter">76</span>
-				</div>
-				<h3>Awwards</h3>
-			</div>
 
-		</div>
-	</div>
-	<!--/ Container end -->
-</section>
-<!--/ Counter end -->
-
-<!-- Feature box start -->
+<!-- Service box start -->
 <section id="feature" class="feature">
 	<div class="container">
+
 		<div class="row">
 			<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
 				<span class="feature-icon float-left"><i class="fa fa-heart-o"></i></span>
@@ -492,7 +557,7 @@
 					<p>High Life narwhal, banh mi PBR single-origin coffee Odd Future actually aliqua</p>
 				</div>
 			</div>
-			<!--/ End 2nd featurebox -->
+			<!--/ End first featurebox -->
 
 			<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
 				<span class="feature-icon float-left"><i class="fa fa-film"></i></span>
@@ -501,7 +566,7 @@
 					<p>Consectetur adipisicing elit sed do eiusmod tempor incididunt ut</p>
 				</div>
 			</div>
-			<!--/ End 3rd featurebox -->
+			<!--/ End first featurebox -->
 		</div><!-- Content row end -->
 
 		<div class="gap-40"></div>
@@ -514,7 +579,7 @@
 					<p>Consectetur adipisicing elit sed do eiusmod tempor incididunt ut</p>
 				</div>
 			</div>
-			<!--/ End 1st featurebox -->
+			<!--/ End first featurebox -->
 
 			<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
 				<span class="feature-icon float-left"><i class="fa fa-desktop"></i></span>
@@ -523,7 +588,7 @@
 					<p>Consectetur adipisicing elit sed do eiusmod tempor incididunt ut</p>
 				</div>
 			</div>
-			<!--/ End 2nd featurebox -->
+			<!--/ End first featurebox -->
 
 			<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
 				<span class="feature-icon float-left"><i class="fa fa-pagelines"></i></span>
@@ -532,7 +597,7 @@
 					<p>High Life narwhal, banh mi PBR single-origin coffee Odd Future actually aliqua</p>
 				</div>
 			</div>
-			<!--/ End 3rd featurebox -->
+			<!--/ End first featurebox -->
 
 		</div><!-- Content row end -->
 
@@ -570,58 +635,26 @@
 	</div>
 	<!--/ Container end -->
 </section>
-<!--/ Feature box end -->
+<!--/ Service box end -->
 
 
-<section id="image-block" class="image-block p-0">
-	<div class="container-fluid">
+<!-- Parallax 2 start -->
+<section class="parallax parallax2">
+	<div class="parallax-overlay"></div>
+	<div class="container">
 		<div class="row">
-			<div class="col-md-6 ts-padding"
-				style="height:650px;background:url(images/image-block-bg.jpg) 50% 50% / cover no-repeat;">
-			</div>
-			<div class="col-md-6 ts-padding img-block-right">
-				<div class="img-block-head text-center">
-					<h2>Know More About Our Company</h2>
-					<h3>Why Choose Us</h3>
-					<p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
-						Proin gravida nibh vel velit auctor Aenean sollicitudin, adipisicing elit sed lorem quis bibendum auctor.
-					</p>
-				</div>
-
-				<div class="gap-30"></div>
-
-				<div class="image-block-content">
-					<span class="feature-icon float-left"><i class="fa fa-bicycle"></i></span>
-					<div class="feature-content">
-						<h3>Tons of Features</h3>
-						<p>Consectetur adipisicing elit sed do eiusmod tempor incididunt ut</p>
-					</div>
-				</div>
-				<!--/ End 1st block -->
-
-				<div class="image-block-content">
-					<span class="feature-icon float-left"><i class="fa fa-diamond"></i></span>
-					<div class="feature-content">
-						<h3>PowerPack Theme</h3>
-						<p>Proin gravida nibh vel velit auctor Aenean sollicitudin adipisicing</p>
-					</div>
-				</div>
-				<!--/ End 1st block -->
-
-				<div class="image-block-content">
-					<span class="feature-icon float-left"><i class="fa fa-street-view"></i></span>
-					<div class="feature-content">
-						<h3>Day Night Support</h3>
-						<p>Simply dummy text and typesettings industry has been the industry</p>
-					</div>
-				</div>
-				<!--/ End 1st block -->
-
+			<div class="col-md-12 text-center">
+				<h2>Are You Ready to Buy This Template!</h2>
+				<h3>Just Click Button and Use Your Own</h3>
+				<p>
+					<a href="#" class="btn btn-primary white">Purchase Now</a>
+					<a href="#" class="btn btn-primary solid">Get In Touch</a>
+				</p>
 			</div>
 		</div>
-	</div>
-</section>
-<!--/ Image block end -->
+	</div><!-- Container end -->
+</section><!-- Parallax 2 end -->
+
 
 
 <!-- Team start -->
@@ -727,106 +760,9 @@
 </section>
 <!--/ Team end -->
 
-<!-- Parallax 1 start -->
-<section class="parallax parallax1">
-	<div class="parallax-overlay"></div>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 text-center">
-				<h2>Are You Ready to Buy This Template!</h2>
-				<h3>Just Click Button and Use Your Own</h3>
-				<p>
-					<a href="#" class="btn btn-primary white">Purchase Now</a>
-					<a href="#" class="btn btn-primary solid">Get In Touch</a>
-				</p>
-			</div>
-		</div>
-	</div><!-- Container end -->
-</section><!-- Parallax 1 end -->
-
-<!-- Pricing table start -->
-<section id="pricing" class="pricing">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 heading">
-				<span class="title-icon float-left"><i class="fa fa-university"></i></span>
-				<h2 class="title">Pricing Table <span class="title-desc">We Love to Work with Passion</span></h2>
-			</div>
-		</div><!-- Title row end -->
-		<div class="row">
-			<!-- plan start -->
-			<div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
-				<div class="plan text-center">
-					<span class="plan-name">Basic <small>Monthly plan</small></span>
-					<p class="plan-price"><sup class="currency">$</sup><strong>49</strong><sub>.99</sub></p>
-					<ul class="list-unstyled">
-						<li>100GB Monthly Bandwidth</li>
-						<li>$100 Google AdWords</li>
-						<li>100 Domain Hosting</li>
-						<li>SSL Shopping Cart</li>
-						<li>24/7 Live Support</li>
-					</ul>
-					<a class="btn btn-primary" href="#.">Sign Up</a>
-				</div>
-			</div><!-- plan end -->
-
-			<!-- plan start -->
-			<div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="1s">
-				<div class="plan text-center">
-					<span class="plan-name">Standared <small>Monthly plan</small></span>
-					<p class="plan-price"><sup class="currency">$</sup><strong>99</strong><sub>.99</sub></p>
-					<ul class="list-unstyled">
-						<li>100GB Monthly Bandwidth</li>
-						<li>$100 Google AdWords</li>
-						<li>100 Domain Hosting</li>
-						<li>SSL Shopping Cart</li>
-						<li>24/7 Live Support</li>
-					</ul>
-					<a class="btn btn-primary" href="#.">Sign Up</a>
-				</div>
-			</div><!-- plan end -->
-
-			<!-- plan start -->
-			<div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="1.4s">
-				<div class="plan text-center featured">
-					<span class="plan-name">Professional <small>Monthly plan</small></span>
-					<p class="plan-price"><sup class="currency">$</sup><strong>149</strong><sub>.99</sub></p>
-					<ul class="list-unstyled">
-						<li>100GB Monthly Bandwidth</li>
-						<li>$100 Google AdWords</li>
-						<li>100 Domain Hosting</li>
-						<li>SSL Shopping Cart</li>
-						<li>24/7 Live Support</li>
-					</ul>
-					<a class="btn btn-primary" href="#.">Sign Up</a>
-				</div>
-			</div><!-- plan end -->
-
-			<!-- plan start -->
-			<div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="1.6s">
-				<div class="plan text-center">
-					<span class="plan-name">Premium <small>Monthly plan</small></span>
-					<p class="plan-price"><sup class="currency">$</sup><strong>399</strong><sub>.99</sub></p>
-					<ul class="list-unstyled">
-						<li>100GB Monthly Bandwidth</li>
-						<li>$100 Google AdWords</li>
-						<li>100 Domain Hosting</li>
-						<li>SSL Shopping Cart</li>
-						<li>24/7 Live Support</li>
-					</ul>
-					<a class="btn btn-primary" href="#.">Sign Up</a>
-				</div>
-			</div><!-- plan end -->
-		</div>
-		<!--/ Content row end -->
-	</div>
-	<!--/  Container end-->
-</section>
-<!--/ Pricing table end -->
-
 
 <!-- Testimonial start-->
-<section class="testimonial parallax parallax2">
+<section class="testimonial parallax parallax3">
 	<div class="parallax-overlay"></div>
 	<div class="container">
 		<div class="row">
@@ -880,215 +816,173 @@
 <!--/ Testimonial end-->
 
 
-<!-- Clients start -->
-<section id="clients" class="clients">
+<!-- Newsletter start -->
+<section id="newsletter" class="newsletter">
 	<div class="container">
-		<div class="row wow fadeInLeft">
-			<div id="client-carousel" class="col-sm-12 owl-carousel owl-theme text-center client-carousel">
-				<figure class="m-0 item client_logo">
-					<a href="#">
-						<img src="images/clients/client1.png" alt="client">
-					</a>
-				</figure>
-				<figure class="m-0 item client_logo">
-					<a href="#">
-						<img src="images/clients/client2.png" alt="client">
-					</a>
-				</figure>
-				<figure class="m-0 item client_logo">
-					<a href="#">
-						<img src="images/clients/client3.png" alt="client">
-					</a>
-				</figure>
-				<figure class="m-0 item client_logo">
-					<a href="#">
-						<img src="images/clients/client4.png" alt="client">
-					</a>
-				</figure>
-				<figure class="m-0 item client_logo">
-					<a href="#">
-						<img src="images/clients/client5.png" alt="client">
-					</a>
-				</figure>
-				<figure class="m-0 item client_logo">
-					<a href="#">
-						<img src="images/clients/client6.png" alt="client">
-					</a>
-				</figure>
-				<figure class="m-0 item client_logo">
-					<a href="#">
-						<img src="images/clients/client7.png" alt="client">
-					</a>
-				</figure>
-				<figure class="m-0 item client_logo">
-					<a href="#">
-						<img src="images/clients/client8.png" alt="client">
-					</a>
-				</figure>
-			</div><!-- Owl carousel end -->
-		</div><!-- Main row end -->
+		<div class="row">
+			<div class="col-md-12 heading text-center">
+				<span class="icon-pentagon wow bounceIn animated"><i class="fa fa-envelope"></i></span>
+				<h2 class="title2">Subscribe With Us
+					<span class="title-desc">We Love to Work with Passion</span>
+				</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 mx-auto">
+				<form action="#" method="post" id="newsletter-form" class="newsletter-form wow bounceIn"
+					data-wow-duration=".8s">
+					<div class="form-group">
+						<input type="email" name="email" id="newsletter-form-email" class="form-control form-control-lg"
+							placeholder="Enter your email address" autocomplete="off">
+						<button class="btn btn-primary solid">Subscribe</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<!--/ Content row end -->
+	</div>
+	<!--/ Container end -->
+</section><!-- Newsletter end -->
+
+
+<!-- Footer start -->
+<footer id="footer" class="footer footer2">
+	<div class="container">
+
+		<div class="row">
+
+			<div class="col-md-4 col-sm-12 footer-widget">
+				<h3 class="widget-title">Flickr Photos</h3>
+
+				<div class="img-gallery">
+					<div class="img-container">
+						<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/1.jpg">
+							<img src="images/gallery/1.jpg" alt="">
+						</a>
+						<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/2.jpg">
+							<img src="images/gallery/2.jpg" alt="">
+						</a>
+						<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/3.jpg">
+							<img src="images/gallery/3.jpg" alt="">
+						</a>
+						<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/4.jpg">
+							<img src="images/gallery/4.jpg" alt="">
+						</a>
+						<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/5.jpg">
+							<img src="images/gallery/5.jpg" alt="">
+						</a>
+						<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/6.jpg">
+							<img src="images/gallery/6.jpg" alt="">
+						</a>
+						<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/6.jpg">
+							<img src="images/gallery/7.jpg" alt="">
+						</a>
+						<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/6.jpg">
+							<img src="images/gallery/8.jpg" alt="">
+						</a>
+						<a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/6.jpg">
+							<img src="images/gallery/9.jpg" alt="">
+						</a>
+					</div>
+				</div>
+
+
+			</div>
+			<!--/ end flickr -->
+
+			<div class="col-md-4 col-sm-12 footer-widget">
+				<h3 class="widget-title">Quick Links</h3>
+
+				<ul class="unstyled arrow">
+					<li><a href="#">About CraftTheme</a></li>
+					<li><a href="#">How We Help</a></li>
+					<li><a href="#">Upcoming Events</a></li>
+					<li><a href="#">Customer Support</a></li>
+					<li><a href="#">Fill a Form</a></li>
+					<li><a href="#">Latest News</a></li>
+					<li><a href="#">Features</a></li>
+					<li><a href="#">Shortcodes</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">404 Error Page</a></li>
+					<li><a href="#">Coming Soon</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+
+			</div>
+			<!--/ End Recent Posts-->
+
+
+			<div class="col-md-3 col-sm-12 footer-widget footer-about-us">
+				<h3 class="widget-title">About Craft</h3>
+				<p>We are a awward winning multinational company. We believe in quality and standard worldwide.</p>
+				<p><strong>Address: </strong>1102 Saint Marys, Junction City, KS</p>
+				<div class="row">
+					<div class="col-md-6">
+						<strong>Email: </strong>
+						<p>info@craftbd.com</p>
+					</div>
+					<div class="col-md-6">
+						<strong>Phone No.</strong>
+						<p>+(785) 238-4131</p>
+					</div>
+				</div>
+				<br />
+				<p><a href="#" class="btn btn-primary solid square">Purchase Now <i class="fa fa-long-arrow-right"></i></a></p>
+			</div>
+		</div><!-- Row end -->
+	</div><!-- Container end -->
+</footer><!-- Footer end -->
+
+
+<!-- Footer start -->
+<section id="copyright" class="copyright angle">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<ul class="footer-social unstyled">
+					<li>
+						<a title="Twitter" href="#">
+							<span class="icon-pentagon wow bounceIn"><i class="fa fa-twitter"></i></span>
+						</a>
+						<a title="Facebook" href="#">
+							<span class="icon-pentagon wow bounceIn"><i class="fa fa-facebook"></i></span>
+						</a>
+						<a title="Google+" href="#">
+							<span class="icon-pentagon wow bounceIn"><i class="fa fa-google-plus"></i></span>
+						</a>
+						<a title="linkedin" href="#">
+							<span class="icon-pentagon wow bounceIn"><i class="fa fa-linkedin"></i></span>
+						</a>
+						<a title="Pinterest" href="#">
+							<span class="icon-pentagon wow bounceIn"><i class="fa fa-pinterest"></i></span>
+						</a>
+						<a title="Skype" href="#">
+							<span class="icon-pentagon wow bounceIn"><i class="fa fa-skype"></i></span>
+						</a>
+						<a title="Dribble" href="#">
+							<span class="icon-pentagon wow bounceIn"><i class="fa fa-dribbble"></i></span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--/ Row end -->
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<div class="copyright-info">
+					&copy; Copyright 2019 Themefisher. <span>Designed by <a
+							href="https://themefisher.com">Themefisher.com</a></span>
+				</div>
+			</div>
+		</div>
+		<!--/ Row end -->
+		<div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top affix position-fixed">
+			<button class="btn btn-primary" title="Back to Top"><i class="fa fa-angle-double-up"></i></button>
+		</div>
 	</div>
 	<!--/ Container end -->
 </section>
-<!--/ Clients end -->
-
-	<!-- Footer start -->
-	<footer id="footer" class="footer">
-	  <div class="container">
-	    <div class="row">
-	      <div class="col-md-4 col-sm-12 footer-widget">
-	        <h3 class="widget-title">Recent Posts</h3>
-	        <div class="latest-post-items media">
-	          <div class="latest-post-content media-body">
-	            <h4><a href="#">Bulgaria claims to find Europe's 'oldest town'</a></h4>
-	            <p class="post-meta">
-	              <span class="author">Posted by John Doe</span>
-	              <span class="post-meta-cat">in<a href="#"> Blog</a></span>
-	            </p>
-	          </div>
-	        </div><!-- 1st Latest Post end -->
-
-	        <div class="latest-post-items media">
-	          <div class="latest-post-content media-body">
-	            <h4><a href="#">Few Answers in Case of Murdered Law Professor</a></h4>
-	            <p class="post-meta">
-	              <span class="date"><i class="icon icon-calendar"></i> Mar 15, 2015</span>
-	              <span class="post-meta-comments"><i class="icon icon-bubbles4"></i> <a href="#">03</a></span>
-	            </p>
-	          </div>
-	        </div><!-- 2nd Latest Post end -->
-
-	        <div class="latest-post-items media">
-	          <div class="latest-post-content media-body">
-	            <h4><a href="#">Over the year we have lots of experience in our field</a></h4>
-	            <p class="post-meta">
-	              <span class="date"><i class="icon icon-calendar"></i> Apr 17, 2015</span>
-	              <span class="post-meta-comments"><i class="icon icon-bubbles4"></i> <a href="#">14</a></span>
-	            </p>
-	          </div>
-	        </div><!-- 3rd Latest Post end -->
-
-	      </div>
-	      <!--/ End Recent Posts-->
-
-
-	      <div class="col-md-4 col-sm-12 footer-widget">
-	        <h3 class="widget-title">Flickr Photos</h3>
-
-	        <div class="img-gallery">
-	          <div class="img-container">
-	            <a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/1.jpg">
-	              <img src="images/gallery/1.jpg" alt="">
-	            </a>
-	            <a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/2.jpg">
-	              <img src="images/gallery/2.jpg" alt="">
-	            </a>
-	            <a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/3.jpg">
-	              <img src="images/gallery/3.jpg" alt="">
-	            </a>
-	            <a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/4.jpg">
-	              <img src="images/gallery/4.jpg" alt="">
-	            </a>
-	            <a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/5.jpg">
-	              <img src="images/gallery/5.jpg" alt="">
-	            </a>
-	            <a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/6.jpg">
-	              <img src="images/gallery/6.jpg" alt="">
-	            </a>
-	            <a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/6.jpg">
-	              <img src="images/gallery/7.jpg" alt="">
-	            </a>
-	            <a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/6.jpg">
-	              <img src="images/gallery/8.jpg" alt="">
-	            </a>
-	            <a class="thumb-holder" data-rel="prettyPhoto" href="images/gallery/6.jpg">
-	              <img src="images/gallery/9.jpg" alt="">
-	            </a>
-	          </div>
-	        </div>
-	      </div>
-	      <!--/ end flickr -->
-
-	      <div class="col-md-3 col-sm-12 footer-widget footer-about-us">
-	        <h3 class="widget-title">About Craft</h3>
-	        <p>We are a awward winning multinational company. We believe in quality and standard worldwide.</p>
-	        <h4>Address</h4>
-	        <p>1102 Saint Marys, Junction City, KS</p>
-	        <div class="row">
-	          <div class="col-md-6">
-	            <h4>Email:</h4>
-	            <p>info@craftbd.com</p>
-	          </div>
-	          <div class="col-md-6">
-	            <h4>Phone No.</h4>
-	            <p>+(785) 238-4131</p>
-	          </div>
-	        </div>
-	        <form action="#" role="form">
-	          <div class="input-group subscribe">
-	            <input type="email" class="form-control" placeholder="Email Address" required="">
-	            <span class="input-group-addon">
-	              <button class="btn" type="submit"><i class="fa fa-envelope-o"> </i></button>
-	            </span>
-	          </div>
-	        </form>
-	      </div>
-	      <!--/ end about us -->
-
-	    </div><!-- Row end -->
-	  </div><!-- Container end -->
-	</footer><!-- Footer end -->
-
-
-	<!-- Copyright start -->
-	<section id="copyright" class="copyright angle">
-	  <div class="container">
-	    <div class="row">
-	      <div class="col-md-12 text-center">
-	        <ul class="footer-social unstyled">
-	          <li>
-	            <a title="Twitter" href="#">
-	              <span class="icon-pentagon wow bounceIn"><i class="fa fa-twitter"></i></span>
-	            </a>
-	            <a title="Facebook" href="#">
-	              <span class="icon-pentagon wow bounceIn"><i class="fa fa-facebook"></i></span>
-	            </a>
-	            <a title="Google+" href="#">
-	              <span class="icon-pentagon wow bounceIn"><i class="fa fa-google-plus"></i></span>
-	            </a>
-	            <a title="linkedin" href="#">
-	              <span class="icon-pentagon wow bounceIn"><i class="fa fa-linkedin"></i></span>
-	            </a>
-	            <a title="Pinterest" href="#">
-	              <span class="icon-pentagon wow bounceIn"><i class="fa fa-pinterest"></i></span>
-	            </a>
-	            <a title="Skype" href="#">
-	              <span class="icon-pentagon wow bounceIn"><i class="fa fa-skype"></i></span>
-	            </a>
-	            <a title="Dribble" href="#">
-	              <span class="icon-pentagon wow bounceIn"><i class="fa fa-dribbble"></i></span>
-	            </a>
-	          </li>
-	        </ul>
-	      </div>
-	    </div>
-	    <!--/ Row end -->
-	    <div class="row">
-	      <div class="col-md-12 text-center">
-	        <div class="copyright-info">
-	          &copy; Copyright 2019 Themefisher. <span>Designed by <a
-	              href="https://themefisher.com">Themefisher.com</a></span>
-	        </div>
-	      </div>
-	    </div>
-	    <!--/ Row end -->
-	    <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top affix position-fixed">
-	      <button class="btn btn-primary" title="Back to Top"><i class="fa fa-angle-double-up"></i></button>
-	    </div>
-	  </div>
-	  <!--/ Container end -->
-	</section>
-	<!--/ Copyright end -->
+<!--/ Footer end -->
 
 </div><!-- Body inner end -->
 
